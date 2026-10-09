@@ -1,0 +1,31 @@
+
+> gesture-arena@1.0.0 test:e2e
+> playwright test
+
+
+Running 7 tests using 1 worker
+
+  ok 1 tests\e2e\arena.spec.ts:3:1 › copied same-browser tab gets its own seat while refresh restores the original (2.2s)
+  ok 2 tests\e2e\arena.spec.ts:24:1 › room members swap occupied seats, reset readiness and can start without an observer (8.1s)
+  ok 3 tests\e2e\arena.spec.ts:58:1 › leaderboard renders hostile nicknames as text (453ms)
+  ok 4 tests\e2e\arena.spec.ts:68:1 › self-service PVP draft, locked slots, background health and full stage (34.9s)
+  ok 5 tests\e2e\arena.spec.ts:109:1 › PVE configuration lock, source switch during pause and keyboard blur safety (13.4s)
+  ok 6 tests\e2e\arena.spec.ts:160:1 › formal simulated controller pairing rejected, no score write API (830ms)
+  ok 7 tests\e2e\arena.spec.ts:199:1 › codex 25 skills, search, real practice and aids (19.4s)
+
+  7 passed (1.4m)
+
+STDERR:
+[2m[WebServer] [22m(node:15156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:1776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:25448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:25448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:25448) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:24944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

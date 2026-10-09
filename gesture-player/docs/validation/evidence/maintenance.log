@@ -1,0 +1,5 @@
+Real SQLite + maintenance CLI: 6 checks PASS
+
+STDERR:
+(node:22844) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

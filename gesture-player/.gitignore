@@ -6,3 +6,4 @@ models/*
 logs/
 config.json
 *.log
+!docs/validation/**/*.log

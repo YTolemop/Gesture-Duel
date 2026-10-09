@@ -1,0 +1,20 @@
+
+> gesture-arena@1.0.0 build
+> tsc --noEmit && vite build --config apps/web/vite.config.ts
+
+vite v6.3.6 building for production...
+transforming...
+✓ 64 modules transformed.
+rendering chunks...
+computing gzip size...
+../../dist/web/index.html                     0.36 kB │ gzip:   0.27 kB
+../../dist/web/assets/index-C8MlRxlz.css     10.29 kB │ gzip:   3.12 kB
+../../dist/web/assets/index-PLdoh11T.js   1,756.01 kB │ gzip: 427.90 kB
+✓ built in 8.52s
+
+STDERR:
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

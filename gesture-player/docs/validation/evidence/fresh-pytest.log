@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: F:\Gesture Duel\evidence\全新安裝 空白路徑\gesture-player
+configfile: pyproject.toml
+testpaths: tests
+collected 14 items
+
+tests\test_student_contracts.py sss                                      [ 21%]
+tests\test_tools.py ...........                                          [100%]
+
+=========================== short test summary info ===========================
+SKIPPED [1] tests\test_student_contracts.py:16: 正規化學員TODO未完成，非PASS
+SKIPPED [1] tests\test_student_contracts.py:23: KNN學員TODO未完成，非PASS
+SKIPPED [1] tests\test_student_contracts.py:30: 濾波選做TODO，預設未啟用
+======================== 11 passed, 3 skipped in 1.24s ========================
+
+STDERR:

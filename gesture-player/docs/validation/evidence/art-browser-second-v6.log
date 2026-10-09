@@ -1,0 +1,60 @@
+
+> gesture-arena@1.0.0 test:e2e
+> playwright test
+
+
+Running 10 tests using 2 workers
+
+  ok  2 tests\e2e\arena.spec.ts:10:1 › minimal copy and solo preparation leads to persistent in-game selection (12.5s)
+  x   1 tests\e2e\art.spec.ts:4:1 › mage arena art loads and follows real combat poses and spells (14.6s)
+  ok  3 tests\e2e\arena.spec.ts:37:1 › copied same-browser tab gets its own seat while refresh restores the original (2.6s)
+  ok  4 tests\e2e\arena.spec.ts:58:1 › room members swap occupied seats, reset readiness and can start without an observer (8.2s)
+  ok  5 tests\e2e\arena.spec.ts:92:1 › leaderboard renders hostile nicknames as text (426ms)
+  ok  6 tests\e2e\arena.spec.ts:102:1 › solo codes stay hidden and simultaneous practice/PVE sessions remain independent (2.4s)
+  ok  7 tests\e2e\arena.spec.ts:121:1 › self-service PVP draft, locked slots, background health and full stage (43.8s)
+  ok  8 tests\e2e\arena.spec.ts:165:1 › PVE configuration lock, source switch during pause and keyboard blur safety (13.5s)
+  ok  9 tests\e2e\arena.spec.ts:215:1 › formal simulated controller pairing rejected, no score write API (916ms)
+  ok 10 tests\e2e\arena.spec.ts:252:1 › codex 25 skills, search, real practice and aids (11.6s)
+
+
+  1) tests\e2e\art.spec.ts:4:1 › mage arena art loads and follows real combat poses and spells › Expect "poll toBe" 
+
+    Error: Timeout 5000ms exceeded while waiting on the predicate
+
+      26 |   await expect.poll(()=>states.at(-1)?.phase).toBe("PLAYING");
+      27 |   await page.getByRole("button",{name:"全螢幕觀戰",exact:true}).click();
+    > 28 |   await expect.poll(async()=> (await page.locator("canvas").boundingBox())?.width).toBe(1920);
+         |   ^
+      29 |   await page.locator("canvas").click();await page.waitForTimeout(200);
+      30 |   await page.screenshot({path:"evidence/art-idle-v6.png"});
+      31 |   await page.keyboard.down("s");await expect.poll(()=>states.at(-1)?.core?.actors[0]?.crouch).toBe(true);
+        at F:\Gesture Duel\gesture-arena\tests\e2e\art.spec.ts:28:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\art-mage-arena-art-loads-a-d2a63-eal-combat-poses-and-spells\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\art-mage-arena-art-loads-a-d2a63-eal-combat-poses-and-spells\error-context.md
+
+  1 failed
+    tests\e2e\art.spec.ts:4:1 › mage arena art loads and follows real combat poses and spells ──────
+  9 passed (1.7m)
+
+STDERR:
+[2m[WebServer] [22m(node:23356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:22744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:3936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:3936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22m(node:3936) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:17004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

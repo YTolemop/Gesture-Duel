@@ -1,0 +1,5 @@
+# Keep protocol fixtures byte-for-byte: manifests verify their SHA-256.
+protocol/** -text
+**/protocol/** -text
+*.png binary
+*.task binary

@@ -1,0 +1,23 @@
+
+> gesture-arena@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.4 F:/Gesture Duel/evidence/全新安裝 空白路徑/gesture-arena
+
+ ✓ tests/protocol.test.ts (1 test) 31ms
+ ✓ tests/more-rules.test.ts (16 tests) 17ms
+ ✓ tests/damage-oracle.test.ts (19 tests) 86ms
+ ✓ tests/server.test.ts (14 tests) 39ms
+ ✓ tests/core.test.ts (45 tests) 424ms
+   ✓ all skills, timing, damage and interactions > AI decisions ignore a player's unrevealed ultimate and honor all difficulty ranges  318ms
+
+ Test Files  5 passed (5)
+      Tests  95 passed (95)
+   Start at  21:31:41
+   Duration  1.12s (transform 366ms, setup 0ms, collect 1.15s, tests 597ms, environment 1ms, prepare 947ms)
+
+
+STDERR:
+(node:22684) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

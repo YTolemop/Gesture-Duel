@@ -1,0 +1,5 @@
+{"pass": true, "crossRoundContext": true, "sameRunId": true, "newMatchId": true, "rewardHp": 650, "rewardQi": 4.5, "clearedImbalance": true, "oldMatchRejected": true, "fixture": "server-owned deterministic hp/position; actual normal attack and Socket.IO"}
+
+STDERR:
+(node:8864) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
