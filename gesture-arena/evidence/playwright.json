@@ -1,0 +1,535 @@
+{
+  "config": {
+    "configFile": "F:\\Gesture Duel\\gesture-arena\\playwright.config.ts",
+    "rootDir": "F:/Gesture Duel/gesture-arena/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "evidence/playwright.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "F:/Gesture Duel/gesture-arena/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/Gesture Duel/gesture-arena/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm start",
+      "url": "http://127.0.0.1:3000/health",
+      "reuseExistingServer": false,
+      "env": {
+        "ARENA_DATA_DIR": "F:\\Gesture Duel\\gesture-arena\\evidence\\e2e-data",
+        "ENABLE_INTERNAL_TEST_MODE": "false"
+      },
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "arena.spec.ts",
+      "file": "arena.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "minimal copy and solo preparation leads to persistent in-game selection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4409,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T13:28:19.187Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-806865110fbc2acdc18f",
+          "file": "arena.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "copied same-browser tab gets its own seat while refresh restores the original",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1973,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T13:28:23.717Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-895323006d3585acb265",
+          "file": "arena.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "room members swap occupied seats, reset readiness and can start without an observer",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8115,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 117
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 107
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 3
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 114
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 3
+                    }
+                  ],
+                  "startTime": "2026-10-09T13:28:25.747Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-3e5d4e7812692286e7e5",
+          "file": "arena.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "leaderboard renders hostile nicknames as text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 485,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T13:28:33.879Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-4ea212f2e11b32ea5b6e",
+          "file": "arena.spec.ts",
+          "line": 92,
+          "column": 1
+        },
+        {
+          "title": "solo codes stay hidden and simultaneous practice/PVE sessions remain independent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2625,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T13:28:34.382Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-6faf4dce1842907192f9",
+          "file": "arena.spec.ts",
+          "line": 102,
+          "column": 1
+        },
+        {
+          "title": "self-service PVP draft, locked slots, background health and full stage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 50113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 378
+                    },
+                    {
+                      "title": "Expect \"poll toBeGreaterThan\"",
+                      "duration": 7
+                    }
+                  ],
+                  "startTime": "2026-10-09T13:28:37.023Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-69d0db78e725661ee3a7",
+          "file": "arena.spec.ts",
+          "line": 121,
+          "column": 1
+        },
+        {
+          "title": "PVE configuration lock, source switch during pause and keyboard blur safety",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 374
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 2
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 359
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 2
+                    }
+                  ],
+                  "startTime": "2026-10-09T13:29:27.208Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-1fc81eda24b5ed577e9c",
+          "file": "arena.spec.ts",
+          "line": 165,
+          "column": 1
+        },
+        {
+          "title": "formal simulated controller pairing rejected, no score write API",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 856,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T13:29:39.471Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-8ac1267563913893ed39",
+          "file": "arena.spec.ts",
+          "line": 215,
+          "column": 1
+        },
+        {
+          "title": "codex 25 skills, search, real practice and aids",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12108,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T13:29:40.367Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "807b057befe601acf025-0d38bf56be80b32b5c94",
+          "file": "arena.spec.ts",
+          "line": 252,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "art.spec.ts",
+      "file": "art.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "mage arena art loads and follows real combat poses and spells",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 39182,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 3997
+                    },
+                    {
+                      "title": "Expect \"poll toBeCloseTo\"",
+                      "duration": 948
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 393
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 420
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 374
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 415
+                    },
+                    {
+                      "title": "Expect \"poll toBeGreaterThan\"",
+                      "duration": 928
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 368
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 0
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 379
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 1964
+                    },
+                    {
+                      "title": "Expect \"poll toBe\"",
+                      "duration": 3959
+                    }
+                  ],
+                  "startTime": "2026-10-09T13:29:52.534Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4b0cf62d6e43caacf5e5-ebeff0e71f4853140a15",
+          "file": "art.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T13:28:15.721Z",
+    "duration": 136278.20500000002,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

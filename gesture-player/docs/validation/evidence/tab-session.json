@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-09T10:57:20.088Z",
+  "command": "npm run build; npm run test:e2e",
+  "cwd": "F:\\Gesture Duel\\gesture-arena",
+  "buildExitCode": 0,
+  "playwrightExitCode": 0,
+  "passed": 6,
+  "regression": "same-browser window.open copied sessionStorage, independent blue seat and original red refresh",
+  "transport": "actual browser contexts and Socket.IO"
+}

@@ -1,0 +1,352 @@
+{
+  "date": "2026-10-09T08:01:32.693Z",
+  "durationSeconds": 1800.001,
+  "transport": "real Socket.IO websocket clients to Node HTTP server",
+  "mix": "1 PVP + 2 practice + 1 PVE, each with observer",
+  "hardware": {
+    "cpu": {
+      "model": "Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz",
+      "speed": 2904,
+      "times": {
+        "user": 741906,
+        "nice": 0,
+        "sys": 712203,
+        "idle": 9457343,
+        "irq": 148468
+      }
+    },
+    "release": "10.0.19045",
+    "memory": 34299576320
+  },
+  "metrics": [
+    {
+      "seconds": 60.032,
+      "p95StepMs": 0.8369999999995343,
+      "behindSteps": 0,
+      "rss": 78905344,
+      "snapshotBytes": 18505927,
+      "uptime": 75.9444349,
+      "receivedSnapshotBytes": 18239721,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 120.038,
+      "p95StepMs": 0.8323999999993248,
+      "behindSteps": 0,
+      "rss": 81162240,
+      "snapshotBytes": 36899465,
+      "uptime": 135.9581559,
+      "receivedSnapshotBytes": 36385512,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 180.047,
+      "p95StepMs": 0.7581000000063796,
+      "behindSteps": 0,
+      "rss": 81575936,
+      "snapshotBytes": 55442082,
+      "uptime": 195.9674489,
+      "receivedSnapshotBytes": 54678869,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 240.059,
+      "p95StepMs": 0.730199999990873,
+      "behindSteps": 0,
+      "rss": 89251840,
+      "snapshotBytes": 74010431,
+      "uptime": 255.9794687,
+      "receivedSnapshotBytes": 72997606,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 300.067,
+      "p95StepMs": 0.6990999999979977,
+      "behindSteps": 0,
+      "rss": 91099136,
+      "snapshotBytes": 92512066,
+      "uptime": 315.9873686,
+      "receivedSnapshotBytes": 91250003,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 360.067,
+      "p95StepMs": 0.7075999999942724,
+      "behindSteps": 0,
+      "rss": 91828224,
+      "snapshotBytes": 111048933,
+      "uptime": 375.9877932,
+      "receivedSnapshotBytes": 109537282,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 420.077,
+      "p95StepMs": 0.7093999999924563,
+      "behindSteps": 0,
+      "rss": 92102656,
+      "snapshotBytes": 129604871,
+      "uptime": 435.9980781,
+      "receivedSnapshotBytes": 127843751,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 480.088,
+      "p95StepMs": 0.7136000000173226,
+      "behindSteps": 0,
+      "rss": 92114944,
+      "snapshotBytes": 148097330,
+      "uptime": 496.0090122,
+      "receivedSnapshotBytes": 146086621,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 540.095,
+      "p95StepMs": 0.761800000036601,
+      "behindSteps": 0,
+      "rss": 91828224,
+      "snapshotBytes": 166848948,
+      "uptime": 556.0153253,
+      "receivedSnapshotBytes": 164328484,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 600.104,
+      "p95StepMs": 0.7937000000383705,
+      "behindSteps": 0,
+      "rss": 92942336,
+      "snapshotBytes": 185392139,
+      "uptime": 616.0254789,
+      "receivedSnapshotBytes": 182621879,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 660.111,
+      "p95StepMs": 0.8097999999881722,
+      "behindSteps": 0,
+      "rss": 92917760,
+      "snapshotBytes": 203951113,
+      "uptime": 676.0333822,
+      "receivedSnapshotBytes": 200931242,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 720.117,
+      "p95StepMs": 0.7557999999262393,
+      "behindSteps": 0,
+      "rss": 104263680,
+      "snapshotBytes": 222480512,
+      "uptime": 736.0386679,
+      "receivedSnapshotBytes": 219211194,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 780.123,
+      "p95StepMs": 0.7311000000918284,
+      "behindSteps": 0,
+      "rss": 104460288,
+      "snapshotBytes": 241041245,
+      "uptime": 796.0446055,
+      "receivedSnapshotBytes": 237522316,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 840.132,
+      "p95StepMs": 0.7163000000873581,
+      "behindSteps": 0,
+      "rss": 105078784,
+      "snapshotBytes": 259571165,
+      "uptime": 856.0539061,
+      "receivedSnapshotBytes": 255802790,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 900.145,
+      "p95StepMs": 0.6963999998988584,
+      "behindSteps": 0,
+      "rss": 104456192,
+      "snapshotBytes": 278073333,
+      "uptime": 916.0679035,
+      "receivedSnapshotBytes": 274055162,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 960.157,
+      "p95StepMs": 0.7116999999852851,
+      "behindSteps": 0,
+      "rss": 104484864,
+      "snapshotBytes": 296553269,
+      "uptime": 976.0798627,
+      "receivedSnapshotBytes": 292285762,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 1020.159,
+      "p95StepMs": 0.7190999999875203,
+      "behindSteps": 0,
+      "rss": 104738816,
+      "snapshotBytes": 315103943,
+      "uptime": 1036.0818107,
+      "receivedSnapshotBytes": 310586824,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 1080.171,
+      "p95StepMs": 0.7151000001467764,
+      "behindSteps": 0,
+      "rss": 104849408,
+      "snapshotBytes": 333628945,
+      "uptime": 1096.0938991,
+      "receivedSnapshotBytes": 328862586,
+      "clients": 9,
+      "rooms": 5
+    },
+    {
+      "seconds": 1140.206,
+      "p95StepMs": 0.7255000000586733,
+      "behindSteps": 0,
+      "rss": 104873984,
+      "snapshotBytes": 352183401,
+      "uptime": 1156.1298666,
+      "receivedSnapshotBytes": 347167222,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1200.205,
+      "p95StepMs": 0.7319999998435378,
+      "behindSteps": 0,
+      "rss": 104882176,
+      "snapshotBytes": 370653356,
+      "uptime": 1216.1287985,
+      "receivedSnapshotBytes": 365387796,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1260.212,
+      "p95StepMs": 0.7310999999754131,
+      "behindSteps": 0,
+      "rss": 104955904,
+      "snapshotBytes": 389182941,
+      "uptime": 1276.1358732,
+      "receivedSnapshotBytes": 383667936,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1320.213,
+      "p95StepMs": 0.6988999999593943,
+      "behindSteps": 0,
+      "rss": 105009152,
+      "snapshotBytes": 407736381,
+      "uptime": 1336.1365793,
+      "receivedSnapshotBytes": 401971763,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1380.221,
+      "p95StepMs": 0.6869000000879169,
+      "behindSteps": 0,
+      "rss": 106418176,
+      "snapshotBytes": 426216862,
+      "uptime": 1396.1446877,
+      "receivedSnapshotBytes": 420202797,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1440.227,
+      "p95StepMs": 0.692100000102073,
+      "behindSteps": 0,
+      "rss": 106590208,
+      "snapshotBytes": 444757121,
+      "uptime": 1456.1503842,
+      "receivedSnapshotBytes": 438493443,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1500.233,
+      "p95StepMs": 0.7040000001434237,
+      "behindSteps": 0,
+      "rss": 106905600,
+      "snapshotBytes": 463331477,
+      "uptime": 1516.1568039,
+      "receivedSnapshotBytes": 456818330,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1560.235,
+      "p95StepMs": 0.7097000000067055,
+      "behindSteps": 0,
+      "rss": 106967040,
+      "snapshotBytes": 481848879,
+      "uptime": 1576.1594936,
+      "receivedSnapshotBytes": 475086144,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1620.25,
+      "p95StepMs": 0.7353000000584871,
+      "behindSteps": 0,
+      "rss": 107094016,
+      "snapshotBytes": 500317774,
+      "uptime": 1636.1733021,
+      "receivedSnapshotBytes": 493306420,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1680.235,
+      "p95StepMs": 0.7353000000584871,
+      "behindSteps": 0,
+      "rss": 107216896,
+      "snapshotBytes": 518819365,
+      "uptime": 1696.1599219,
+      "receivedSnapshotBytes": 511559227,
+      "clients": 9,
+      "rooms": 4
+    },
+    {
+      "seconds": 1740.25,
+      "p95StepMs": 0.7333000001963228,
+      "behindSteps": 0,
+      "rss": 107302912,
+      "snapshotBytes": 537348360,
+      "uptime": 1756.1752351,
+      "receivedSnapshotBytes": 529838426,
+      "clients": 9,
+      "rooms": 4
+    }
+  ],
+  "final": {
+    "p95StepMs": 0.6890000000130385,
+    "behindSteps": 0,
+    "rss": 107466752,
+    "snapshotBytes": 555768450,
+    "uptime": 1815.9243915
+  },
+  "receivedSnapshotBytes": 548010127,
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "setup_windows.bat"
+    ],
+    "cwd": "F:\\Gesture Duel\\evidence\\\u5168\u65b0\u5b89\u88dd \u7a7a\u767d\u8def\u5f91\\gesture-arena",
+    "exitCode": 0,
+    "log": "evidence\\gesture-arena-batch-setup.log"
+  },
+  {
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "setup_windows.bat"
+    ],
+    "cwd": "F:\\Gesture Duel\\evidence\\\u5168\u65b0\u5b89\u88dd \u7a7a\u767d\u8def\u5f91\\gesture-player",
+    "exitCode": 0,
+    "log": "evidence\\gesture-player-batch-setup.log"
+  },
+  {
+    "command": [
+      "cmd.exe",
+      "/d",
+      "/c",
+      "start_windows.bat"
+    ],
+    "cwd": "F:\\Gesture Duel\\evidence\\\u5168\u65b0\u5b89\u88dd \u7a7a\u767d\u8def\u5f91\\gesture-arena",
+    "status": "started successfully; GET /health and / returned 200",
+    "health": "evidence/fresh-start-health.json"
+  }
+]

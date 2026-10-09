@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+*.db*
+.env
+config.json
+gesture-player/data/*
+gesture-player/models/*
+test-results/
+playwright-report/
+delivery/
+*.sqlite*
+pytest-cache-files-*/
+# Runtime databases, backup fixtures and extracted installation checkouts.
+/evidence/*/
+/gesture-arena/evidence/*/
+# Retain completed validation evidence with the source snapshot.
+!/evidence/*.log
+!/gesture-arena/evidence/*.log
+!**/docs/validation/**/*.log

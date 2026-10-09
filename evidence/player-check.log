@@ -1,0 +1,6 @@
+{"python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]", "architecture": "64bit", "platform": "Windows-10-10.0.19045-SP0", "cv2": "5.0.0", "numpy": "2.2.6", "mediapipe": "0.10.32", "model_load": "PASS", "camera": "NOT_RUN", "student_algorithms": "TODO"}
+
+STDERR:
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791549988.541037    4580 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791549988.554061    6352 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.

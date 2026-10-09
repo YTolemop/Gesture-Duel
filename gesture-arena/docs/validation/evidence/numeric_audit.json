@@ -1,0 +1,1367 @@
+{
+  "date": "2026-10-09",
+  "rulesVersion": "numeric-v2-2026-10-08",
+  "source": "new independent script, not historical attachments",
+  "checks": [
+    {
+      "name": "rules version",
+      "actual": "numeric-v2-2026-10-08",
+      "expected": "numeric-v2-2026-10-08",
+      "pass": true
+    },
+    {
+      "name": "25 skills",
+      "actual": 25,
+      "expected": 25,
+      "pass": true
+    },
+    {
+      "name": "normal.cost",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "normal.cooldown",
+      "actual": 0.8,
+      "expected": 0.8,
+      "pass": true
+    },
+    {
+      "name": "normal.prepare",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "normal.recovery",
+      "actual": 0.35,
+      "expected": 0.35,
+      "pass": true
+    },
+    {
+      "name": "normal.damage",
+      "actual": 70,
+      "expected": 70,
+      "pass": true
+    },
+    {
+      "name": "fireball.cost",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "fireball.cooldown",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "fireball.prepare",
+      "actual": 0.35,
+      "expected": 0.35,
+      "pass": true
+    },
+    {
+      "name": "fireball.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "fireball.damage",
+      "actual": 100,
+      "expected": 100,
+      "pass": true
+    },
+    {
+      "name": "spear.cost",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "spear.cooldown",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "name": "spear.prepare",
+      "actual": 0.6,
+      "expected": 0.6,
+      "pass": true
+    },
+    {
+      "name": "spear.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "spear.damage",
+      "actual": 240,
+      "expected": 240,
+      "pass": true
+    },
+    {
+      "name": "flame.cost",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "flame.cooldown",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "name": "flame.prepare",
+      "actual": 0.45,
+      "expected": 0.45,
+      "pass": true
+    },
+    {
+      "name": "flame.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "flame.damage",
+      "actual": 220,
+      "expected": 220,
+      "pass": true
+    },
+    {
+      "name": "stars.cost",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "stars.cooldown",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "name": "stars.prepare",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "stars.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "stars.damage",
+      "actual": 100,
+      "expected": 100,
+      "pass": true
+    },
+    {
+      "name": "bomb.cost",
+      "actual": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "name": "bomb.cooldown",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "bomb.prepare",
+      "actual": 0.5,
+      "expected": 0.5,
+      "pass": true
+    },
+    {
+      "name": "bomb.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "bomb.damage",
+      "actual": 360,
+      "expected": 360,
+      "pass": true
+    },
+    {
+      "name": "shield.cost",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "shield.cooldown",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "shield.prepare",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "name": "shield.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "shield.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "mirror.cost",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "mirror.cooldown",
+      "actual": 5,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "name": "mirror.prepare",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "name": "mirror.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "mirror.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "wall.cost",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "wall.cooldown",
+      "actual": 7,
+      "expected": 7,
+      "pass": true
+    },
+    {
+      "name": "wall.prepare",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "wall.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "wall.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "phase.cost",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "phase.cooldown",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "phase.prepare",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "name": "phase.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "phase.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "cleanse.cost",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "cleanse.cooldown",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "cleanse.prepare",
+      "actual": 0.15,
+      "expected": 0.15,
+      "pass": true
+    },
+    {
+      "name": "cleanse.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "cleanse.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "ice.cost",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "ice.cooldown",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "name": "ice.prepare",
+      "actual": 0.35,
+      "expected": 0.35,
+      "pass": true
+    },
+    {
+      "name": "ice.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "ice.damage",
+      "actual": 80,
+      "expected": 80,
+      "pass": true
+    },
+    {
+      "name": "bind.cost",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "bind.cooldown",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "bind.prepare",
+      "actual": 0.7,
+      "expected": 0.7,
+      "pass": true
+    },
+    {
+      "name": "bind.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "bind.damage",
+      "actual": 180,
+      "expected": 180,
+      "pass": true
+    },
+    {
+      "name": "repulse.cost",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "repulse.cooldown",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "name": "repulse.prepare",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "repulse.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "repulse.damage",
+      "actual": 80,
+      "expected": 80,
+      "pass": true
+    },
+    {
+      "name": "pull.cost",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "pull.cooldown",
+      "actual": 5,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "name": "pull.prepare",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "pull.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "pull.damage",
+      "actual": 190,
+      "expected": 190,
+      "pass": true
+    },
+    {
+      "name": "slowfield.cost",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "slowfield.cooldown",
+      "actual": 7,
+      "expected": 7,
+      "pass": true
+    },
+    {
+      "name": "slowfield.prepare",
+      "actual": 0.45,
+      "expected": 0.45,
+      "pass": true
+    },
+    {
+      "name": "slowfield.recovery",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true
+    },
+    {
+      "name": "slowfield.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "beam.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "beam.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "beam.prepare",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "beam.recovery",
+      "actual": 0.6,
+      "expected": 0.6,
+      "pass": true
+    },
+    {
+      "name": "beam.damage",
+      "actual": 600,
+      "expected": 600,
+      "pass": true
+    },
+    {
+      "name": "meteor.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "meteor.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "meteor.prepare",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "meteor.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "meteor.damage",
+      "actual": 220,
+      "expected": 220,
+      "pass": true
+    },
+    {
+      "name": "nova.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "nova.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "nova.prepare",
+      "actual": 0.8,
+      "expected": 0.8,
+      "pass": true
+    },
+    {
+      "name": "nova.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "nova.damage",
+      "actual": 600,
+      "expected": 600,
+      "pass": true
+    },
+    {
+      "name": "sanctuary.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "sanctuary.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "sanctuary.prepare",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "name": "sanctuary.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "sanctuary.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "silence.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "silence.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "silence.prepare",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "name": "silence.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "silence.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "resolve.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "resolve.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "resolve.prepare",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "name": "resolve.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "resolve.damage",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "gravity.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "gravity.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "gravity.prepare",
+      "actual": 0.9,
+      "expected": 0.9,
+      "pass": true
+    },
+    {
+      "name": "gravity.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "gravity.damage",
+      "actual": 480,
+      "expected": 480,
+      "pass": true
+    },
+    {
+      "name": "frost.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "frost.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "frost.prepare",
+      "actual": 0.9,
+      "expected": 0.9,
+      "pass": true
+    },
+    {
+      "name": "frost.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "frost.damage",
+      "actual": 510,
+      "expected": 510,
+      "pass": true
+    },
+    {
+      "name": "storm.cost",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "storm.cooldown",
+      "actual": 30,
+      "expected": 30,
+      "pass": true
+    },
+    {
+      "name": "storm.prepare",
+      "actual": 0.8,
+      "expected": 0.8,
+      "pass": true
+    },
+    {
+      "name": "storm.recovery",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "storm.damage",
+      "actual": 540,
+      "expected": 540,
+      "pass": true
+    },
+    {
+      "name": "fireball.speed",
+      "actual": 800,
+      "expected": 800,
+      "pass": true
+    },
+    {
+      "name": "fireball.range",
+      "actual": 1120,
+      "expected": 1120,
+      "pass": true
+    },
+    {
+      "name": "fireball.life",
+      "actual": 1.4,
+      "expected": 1.4,
+      "pass": true
+    },
+    {
+      "name": "fireball.distance consistency",
+      "actual": 1120.0,
+      "expected": 1120,
+      "pass": true
+    },
+    {
+      "name": "spear.speed",
+      "actual": 1200,
+      "expected": 1200,
+      "pass": true
+    },
+    {
+      "name": "spear.range",
+      "actual": 1200,
+      "expected": 1200,
+      "pass": true
+    },
+    {
+      "name": "spear.life",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "spear.distance consistency",
+      "actual": 1200,
+      "expected": 1200,
+      "pass": true
+    },
+    {
+      "name": "flame.speed",
+      "actual": 640,
+      "expected": 640,
+      "pass": true
+    },
+    {
+      "name": "flame.range",
+      "actual": 960,
+      "expected": 960,
+      "pass": true
+    },
+    {
+      "name": "flame.life",
+      "actual": 1.5,
+      "expected": 1.5,
+      "pass": true
+    },
+    {
+      "name": "flame.distance consistency",
+      "actual": 960.0,
+      "expected": 960,
+      "pass": true
+    },
+    {
+      "name": "stars.speed",
+      "actual": 700,
+      "expected": 700,
+      "pass": true
+    },
+    {
+      "name": "stars.range",
+      "actual": 560,
+      "expected": 560,
+      "pass": true
+    },
+    {
+      "name": "stars.life",
+      "actual": 0.8,
+      "expected": 0.8,
+      "pass": true
+    },
+    {
+      "name": "stars.distance consistency",
+      "actual": 560.0,
+      "expected": 560,
+      "pass": true
+    },
+    {
+      "name": "ice.speed",
+      "actual": 720,
+      "expected": 720,
+      "pass": true
+    },
+    {
+      "name": "ice.range",
+      "actual": 1008,
+      "expected": 1008,
+      "pass": true
+    },
+    {
+      "name": "ice.life",
+      "actual": 1.4,
+      "expected": 1.4,
+      "pass": true
+    },
+    {
+      "name": "ice.distance consistency",
+      "actual": 1007.9999999999999,
+      "expected": 1008,
+      "pass": true
+    },
+    {
+      "name": "pull.speed",
+      "actual": 520,
+      "expected": 520,
+      "pass": true
+    },
+    {
+      "name": "pull.range",
+      "actual": 1040,
+      "expected": 1040,
+      "pass": true
+    },
+    {
+      "name": "pull.life",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "pull.distance consistency",
+      "actual": 1040,
+      "expected": 1040,
+      "pass": true
+    },
+    {
+      "name": "fireball.shape",
+      "actual": {
+        "kind": "circle",
+        "r": 28
+      },
+      "expected": {
+        "kind": "circle",
+        "r": 28
+      },
+      "pass": true
+    },
+    {
+      "name": "spear.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 100,
+        "h": 20
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 100,
+        "h": 20
+      },
+      "pass": true
+    },
+    {
+      "name": "flame.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 100,
+        "h": 72
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 100,
+        "h": 72
+      },
+      "pass": true
+    },
+    {
+      "name": "stars.shape",
+      "actual": {
+        "kind": "circle",
+        "r": 16
+      },
+      "expected": {
+        "kind": "circle",
+        "r": 16
+      },
+      "pass": true
+    },
+    {
+      "name": "bomb.shape",
+      "actual": {
+        "kind": "circle",
+        "r": 150
+      },
+      "expected": {
+        "kind": "circle",
+        "r": 150
+      },
+      "pass": true
+    },
+    {
+      "name": "bind.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 200,
+        "h": 100
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 200,
+        "h": 100
+      },
+      "pass": true
+    },
+    {
+      "name": "wall.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 40,
+        "h": 300
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 40,
+        "h": 300
+      },
+      "pass": true
+    },
+    {
+      "name": "ice.shape",
+      "actual": {
+        "kind": "circle",
+        "r": 20
+      },
+      "expected": {
+        "kind": "circle",
+        "r": 20
+      },
+      "pass": true
+    },
+    {
+      "name": "pull.shape",
+      "actual": {
+        "kind": "circle",
+        "r": 26
+      },
+      "expected": {
+        "kind": "circle",
+        "r": 26
+      },
+      "pass": true
+    },
+    {
+      "name": "beam.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 960,
+        "h": 120
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 960,
+        "h": 120
+      },
+      "pass": true
+    },
+    {
+      "name": "meteor.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 360,
+        "h": 480
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 360,
+        "h": 480
+      },
+      "pass": true
+    },
+    {
+      "name": "nova.shape",
+      "actual": {
+        "kind": "circle",
+        "r": 220
+      },
+      "expected": {
+        "kind": "circle",
+        "r": 220
+      },
+      "pass": true
+    },
+    {
+      "name": "gravity.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 360,
+        "h": 100
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 360,
+        "h": 100
+      },
+      "pass": true
+    },
+    {
+      "name": "frost.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 720,
+        "h": 100
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 720,
+        "h": 100
+      },
+      "pass": true
+    },
+    {
+      "name": "storm.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 600,
+        "h": 330
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 600,
+        "h": 330
+      },
+      "pass": true
+    },
+    {
+      "name": "slowfield.shape",
+      "actual": {
+        "kind": "rect",
+        "w": 320,
+        "h": 24
+      },
+      "expected": {
+        "kind": "rect",
+        "w": 320,
+        "h": 24
+      },
+      "pass": true
+    },
+    {
+      "name": "shield.shield",
+      "actual": 120,
+      "expected": 120,
+      "pass": true
+    },
+    {
+      "name": "shield.duration",
+      "actual": 2.5,
+      "expected": 2.5,
+      "pass": true
+    },
+    {
+      "name": "sanctuary.shield",
+      "actual": 600,
+      "expected": 600,
+      "pass": true
+    },
+    {
+      "name": "silence.shield",
+      "actual": 480,
+      "expected": 480,
+      "pass": true
+    },
+    {
+      "name": "resolve.duration",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "cleanse.duration",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "bind.root",
+      "actual": 0.6,
+      "expected": 0.6,
+      "pass": true
+    },
+    {
+      "name": "frost.root",
+      "actual": 0.6,
+      "expected": 0.6,
+      "pass": true
+    },
+    {
+      "name": "repulse.push",
+      "actual": 160,
+      "expected": 160,
+      "pass": true
+    },
+    {
+      "name": "nova.push",
+      "actual": 280,
+      "expected": 280,
+      "pass": true
+    },
+    {
+      "name": "storm.push",
+      "actual": 320,
+      "expected": 320,
+      "pass": true
+    },
+    {
+      "name": "pull.pull",
+      "actual": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "name": "ice.slow",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true
+    },
+    {
+      "name": "slowfield.slow",
+      "actual": 0.3,
+      "expected": 0.3,
+      "pass": true
+    },
+    {
+      "name": "gravity.slow",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true
+    },
+    {
+      "name": "jump apex",
+      "actual": 676.0,
+      "expected": 676,
+      "pass": true
+    },
+    {
+      "name": "flight at0.8",
+      "actual": 900.0000000000002,
+      "expected": 900,
+      "pass": true
+    },
+    {
+      "name": "max horizontal jump",
+      "actual": 256.0,
+      "expected": 256,
+      "pass": true
+    },
+    {
+      "name": "spear crouch gap",
+      "actual": 26,
+      "expected": 26,
+      "pass": true
+    },
+    {
+      "name": "fireball safe start",
+      "actual": 0.1,
+      "expected": 0.1,
+      "pass": true
+    },
+    {
+      "name": "fireball safe end",
+      "actual": 0.7,
+      "expected": 0.7,
+      "pass": true
+    },
+    {
+      "name": "ice safe start",
+      "actual": 0.08333333333333333,
+      "expected": 0.08333333333333333,
+      "pass": true
+    },
+    {
+      "name": "ice safe end",
+      "actual": 0.7166666666666667,
+      "expected": 0.7166666666666667,
+      "pass": true
+    },
+    {
+      "name": "pull safe start",
+      "actual": 0.1,
+      "expected": 0.1,
+      "pass": true
+    },
+    {
+      "name": "pull safe end",
+      "actual": 0.7,
+      "expected": 0.7,
+      "pass": true
+    },
+    {
+      "name": "flame safe start",
+      "actual": 0.08333333333333333,
+      "expected": 0.08333333333333333,
+      "pass": true
+    },
+    {
+      "name": "flame safe end",
+      "actual": 0.7166666666666667,
+      "expected": 0.7166666666666667,
+      "pass": true
+    },
+    {
+      "name": "spear safe start",
+      "actual": 0.15,
+      "expected": 0.15,
+      "pass": true
+    },
+    {
+      "name": "spear safe end",
+      "actual": 0.65,
+      "expected": 0.65,
+      "pass": true
+    },
+    {
+      "name": "beam safe start",
+      "actual": 0.18333333333333332,
+      "expected": 0.18333333333333332,
+      "pass": true
+    },
+    {
+      "name": "beam safe end",
+      "actual": 0.6166666666666667,
+      "expected": 0.6166666666666667,
+      "pass": true
+    }
+  ],
+  "count": 198,
+  "passed": 198,
+  "windows": {
+    "fireball": [
+      0.1,
+      0.7
+    ],
+    "spear": [
+      0.15,
+      0.65
+    ],
+    "flame": [
+      0.08333333333333333,
+      0.7166666666666667
+    ],
+    "ice": [
+      0.08333333333333333,
+      0.7166666666666667
+    ],
+    "pull": [
+      0.1,
+      0.7
+    ],
+    "beam": [
+      0.18333333333333332,
+      0.6166666666666667
+    ]
+  },
+  "arrivalSeconds": {
+    "fireball": 1.395,
+    "spear": 1.2783333333333333,
+    "flame": 1.721875,
+    "ice": 1.5222222222222221,
+    "pull": 2.0115384615384615
+  },
+  "escapeSeconds": {
+    "bind": {
+      "320": 0.4125,
+      "256": 0.515625,
+      "224": 0.5892857142857143,
+      "192": 0.6875
+    },
+    "meteor": {
+      "320": 0.6625,
+      "256": 0.828125,
+      "224": 0.9464285714285714,
+      "192": 1.1041666666666667
+    },
+    "gravity": {
+      "320": 0.6625,
+      "256": 0.828125,
+      "224": 0.9464285714285714,
+      "192": 1.1041666666666667
+    }
+  },
+  "allPass": true
+}

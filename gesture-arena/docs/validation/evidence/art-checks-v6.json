@@ -1,0 +1,26 @@
+[
+  {
+    "name": "build",
+    "date": "2026-10-09T13:23:05.064273+00:00",
+    "exitCode": 0,
+    "log": "evidence/art-build-v6.log"
+  },
+  {
+    "name": "vitest",
+    "date": "2026-10-09T13:23:07.382483+00:00",
+    "exitCode": 0,
+    "log": "evidence/art-vitest-v6.log"
+  },
+  {
+    "name": "browser",
+    "date": "2026-10-09T13:30:32.041154+00:00",
+    "exitCode": 0,
+    "log": "evidence/art-browser-v6.log",
+    "command": [
+      "npx",
+      "playwright",
+      "test",
+      "--workers=1"
+    ]
+  }
+]

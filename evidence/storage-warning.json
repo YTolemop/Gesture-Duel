@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "protocolVersion": 1,
+  "rulesVersion": "numeric-v2-2026-10-08",
+  "aiVersion": "ai-v1",
+  "arenaName": "手勢競技場",
+  "internal": false,
+  "rooms": 0,
+  "capacity": 32,
+  "storage": {
+    "bytes": 5664320,
+    "warningBytes": 1048576,
+    "warning": true
+  },
+  "metrics": {
+    "p95StepMs": 0.004300000000512227,
+    "behindSteps": 0,
+    "rss": 70946816,
+    "cpuMicros": {
+      "user": 703000,
+      "system": 171000
+    },
+    "totalSteps": 7853,
+    "snapshotBytes": 0,
+    "uptime": 131.6442891
+  }
+}

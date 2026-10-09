@@ -1,0 +1,133 @@
+[
+  {
+    "name": "build",
+    "startedAt": "2026-10-09T12:46:10.220818+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-arena",
+    "command": [
+      "npm.cmd",
+      "run",
+      "build"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\build.log"
+  },
+  {
+    "name": "vitest",
+    "startedAt": "2026-10-09T12:46:23.051884+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-arena",
+    "command": [
+      "npm.cmd",
+      "test"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\vitest.log"
+  },
+  {
+    "name": "pytest",
+    "startedAt": "2026-10-09T12:46:25.436662+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-player",
+    "command": [
+      "F:\\Gesture Duel\\gesture-player\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-ra"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\pytest.log"
+  },
+  {
+    "name": "player-check",
+    "startedAt": "2026-10-09T12:46:27.219595+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-player",
+    "command": [
+      "F:\\Gesture Duel\\gesture-player\\.venv\\Scripts\\python.exe",
+      "main.py",
+      "check"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\player-check.log"
+  },
+  {
+    "name": "pip-check",
+    "startedAt": "2026-10-09T12:46:28.704053+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-player",
+    "command": [
+      "F:\\Gesture Duel\\gesture-player\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\pip-check.log"
+  },
+  {
+    "name": "numeric",
+    "startedAt": "2026-10-09T12:46:29.332765+00:00",
+    "cwd": "F:\\Gesture Duel",
+    "command": [
+      "C:\\Users\\Pomelo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "tools/numeric_audit.py"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\numeric.log"
+  },
+  {
+    "name": "gui-smoke",
+    "startedAt": "2026-10-09T12:46:29.403540+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-player",
+    "command": [
+      "F:\\Gesture Duel\\gesture-player\\.venv\\Scripts\\python.exe",
+      "-c",
+      "from ui.app import App; from main import config; a=App(config()); a.root.withdraw(); a.root.update(); a.close(); print('Tkinter safe startup PASS')"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\gui-smoke.log"
+  },
+  {
+    "name": "cross-language",
+    "startedAt": "2026-10-09T12:46:31.057019+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-player",
+    "command": [
+      "F:\\Gesture Duel\\gesture-player\\.venv\\Scripts\\python.exe",
+      "tests/integration_socketio.py"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\cross-language.log"
+  },
+  {
+    "name": "pve-round-transport",
+    "startedAt": "2026-10-09T12:46:41.421262+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-arena",
+    "command": [
+      "npx.cmd",
+      "tsx",
+      "tests/cross-language-fixture.ts"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\pve-round-transport.log"
+  },
+  {
+    "name": "maintenance",
+    "startedAt": "2026-10-09T12:46:48.059157+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-arena",
+    "command": [
+      "npx.cmd",
+      "tsx",
+      "tests/maintenance-fixture.ts"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\maintenance.log"
+  },
+  {
+    "name": "playwright",
+    "startedAt": "2026-10-09T12:49:10.402964+00:00",
+    "cwd": "F:\\Gesture Duel\\gesture-arena",
+    "command": [
+      "npm.cmd",
+      "run",
+      "test:e2e"
+    ],
+    "exitCode": 0,
+    "log": "evidence\\playwright.log"
+  }
+]
