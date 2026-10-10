@@ -6,4 +6,5 @@ models/*
 logs/
 config.json
 *.log
-!docs/validation/**/*.log
+pytest-cache-files-*/
+.test-tmp-*/

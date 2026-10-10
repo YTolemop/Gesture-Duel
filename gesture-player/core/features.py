@@ -11,6 +11,10 @@ def raw_valid(sample: RawHandSample, config: dict) -> tuple[bool, str]:
         return False, '擷取契約不相容'
     if sample.width <= 0 or sample.height <= 0:
         return False, '影像尺寸無效'
+    if sample.left is not None:
+        return False, '只能使用右手，請將左手移出畫面'
+    if sample.right is None:
+        return False, '未偵測到右手'
     slots = [sample.left, sample.right]
     if not any(v is not None for v in slots):
         return False, '無手'
@@ -22,8 +26,6 @@ def raw_valid(sample: RawHandSample, config: dict) -> tuple[bool, str]:
         delta = (hand[9] - hand[0]) * np.array([sample.width, sample.height, sample.width])
         if np.linalg.norm(delta) < 10:
             return False, '手掌尺度小於10px'
-    if config.get('hand_mode', 'single') == 'single' and getattr(sample, config.get('single_hand', 'right')) is None:
-        return False, '指定單手缺失'
     return True, ''
 
 def feature(sample, config, normalizer=None):
@@ -37,7 +39,7 @@ def feature(sample, config, normalizer=None):
         if result.features is not None:
             raise ValueError('無效特徵必须為 None')
         return result
-    d = 128 if config.get('hand_mode') == 'dual' else 63
+    d = 63
     if result.featureVersion != config['feature_version'] or not isinstance(result.features, np.ndarray) or result.features.shape != (d,) or result.features.dtype != np.float32 or not np.isfinite(result.features).all():
         raise ValueError('正規化輸出版本／維度／float32／有限值不符接口')
     return result
@@ -66,6 +68,8 @@ class OutputRouter:
         now = time.monotonic()
         try:
             label = validate_prediction(prediction) if tracked else 'NONE'
+            if not tracked and enabled:
+                self.filter.reset()
             if tracked and enabled:
                 label = self.filter.update(prediction, now)
                 if label not in LABELS:

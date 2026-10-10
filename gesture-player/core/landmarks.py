@@ -9,7 +9,8 @@ from core.types import RawHandSample
 MODEL = Path(__file__).resolve().parents[1] / 'assets/models/hand_landmarker.task'
 
 class Landmarks:
-    def __init__(self):
+    def __init__(self, swap_handedness=False):
+        self.swap_handedness=swap_handedness
         if not MODEL.is_file():
             raise RuntimeError('缺少關鍵點模型，請執行 python main.py prepare')
         from core.resources import verify_model
@@ -26,10 +27,12 @@ class Landmarks:
         reliable = True
         for points, handedness in zip(result.hand_landmarks, result.handedness):
             cat = handedness[0]
-            if cat.category_name not in slots or cat.score < .7 or slots[cat.category_name] is not None:
+            name=cat.category_name
+            if self.swap_handedness and name in slots:name='Right' if name=='Left' else 'Left'
+            if name not in slots or cat.score < .7 or slots[name] is not None:
                 reliable = False
                 break
-            slots[cat.category_name] = np.array([[p.x, p.y, p.z] for p in points], dtype=np.float32)
+            slots[name] = np.array([[p.x, p.y, p.z] for p in points], dtype=np.float32)
         return RawHandSample(slots['Left'] if reliable else None, slots['Right'] if reliable else None, frame.shape[1], frame.shape[0], timestamp, camera=camera)
 
     def close(self):

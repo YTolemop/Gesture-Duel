@@ -13,7 +13,9 @@ def sample():
     return RawHandSample(None,hand,640,480,time.monotonic())
 
 def test_unfilled_normalization_is_explicit():
-    with pytest.raises(NotImplementedError,match='StudentNormalizer.transform'):feature(sample(),CONFIG)
+    class Unfilled:
+        def transform(self,*args):raise NotImplementedError('StudentNormalizer.transform')
+    with pytest.raises(NotImplementedError,match='StudentNormalizer.transform'):feature(sample(),CONFIG,Unfilled())
 
 def test_no_hands_safely_bypass_student():
     s=sample();s.right=None
@@ -30,7 +32,11 @@ def test_feature_guard_invalid_shape_and_nan():
     with pytest.raises(ValueError):feature(sample(),CONFIG,Bad())
 
 def test_output_no_hand_and_unfinished_filter():
+    class Unfilled:
+        def reset(self):raise NotImplementedError('StudentFilter.reset')
+        def update(self,*args):raise NotImplementedError('StudentFilter.update')
     r=OutputRouter();r.update(Prediction('BLOCK',True,0,1),True);assert r.read()=='BLOCK'
+    r.filter=Unfilled()
     r.update(Prediction('ATTACK_SKILL',True,0,1),False,True);assert r.read()=='NONE'
     r.update(Prediction('BLOCK',True,0,1),True,True);assert r.read()=='NONE' and 'StudentFilter.update' in r.error
     r.generated-=1;assert r.read()=='NONE'

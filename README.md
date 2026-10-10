@@ -7,7 +7,7 @@
 依 `docs/gesture_workshop_final_spec.md` 製作，數值 numeric-v2-2026-10-08。
 
 - **主機**：[gesture-arena/README.md](gesture-arena/README.md)。setup_windows.bat → start_windows.bat → http://localhost:3000 。
-- **學員**：[gesture-player/README.md](gesture-player/README.md)。setup_windows.bat → run_windows.bat；正規化／KNN必做、濾波選做。
+- **學員**：[gesture-player/README.md](gesture-player/README.md)。依 Windows／macOS／Linux 指令建立 .venv、啟動手勢訓練器；固定右手單手，正規化／KNN必做、濾波選做。macOS／Linux 待實機驗證。
 - **交付驗證**：[acceptance_report.md](acceptance_report.md)。分開記錄程式、自動測試、學員算法及活動設備。
 - **獨立壓縮包**：delivery/。排除依賴、虛擬環境、個人資料與token，兩端各帶協定、fixtures和操作文件。
 

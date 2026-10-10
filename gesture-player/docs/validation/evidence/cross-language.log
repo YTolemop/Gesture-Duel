@@ -1,3 +1,0 @@
-{"pass": true, "results": [{"mode": "PRACTICE", "labels": 11, "context": true, "oldMatchRejected": true, "newSession": true, "safeTimeout": true}, {"mode": "PVE", "labels": 11, "context": true, "oldMatchRejected": true, "newSession": true, "safeTimeout": true}]}
-
-STDERR:

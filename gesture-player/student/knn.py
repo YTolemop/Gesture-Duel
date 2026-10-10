@@ -1,16 +1,21 @@
+import numpy as np
+from core.labels import LABELS
 from core.types import Prediction
+
 
 class StudentKNN:
     def fit(self, features, labels, config: dict) -> None:
-        """Required TODO. features finite float32 (N,D), labels (N,) classId 0..9.
-        Store training data/settings; validate dimensions, N and k. Choose distance,
-        deterministic ties and unknown rejection thresholds. No algorithm supplied.
+        """Required: features is float32 (N, 63); labels is integer (N,), 0..9.
+        Store training data and settings on self for predict; do not read files.
+        Return None. See README for input contracts and useful operations.
         """
-        raise NotImplementedError('請完成 student/knn.py: StudentKNN.fit')
+        raise NotImplementedError('Implement StudentKNN.fit; see README')
 
     def predict(self, features) -> Prediction:
-        """Required TODO. One finite float32 (D,) -> Prediction(label, valid,
-        nearest_distance, vote_ratio). Choose neighbors, vote and rejection.
-        Unknown must be NONE/invalid, not forcibly one of ten labels.
+        """Required: features is one float32 vector of shape (63,).
+        Classify using the data stored by fit. Choose a distance metric,
+        neighbors, voting, deterministic ties, and unknown rejection rules.
+        Return Prediction; use LABELS[class_id] to obtain a label string.
+        See README for the return contract.
         """
-        raise NotImplementedError('請完成 student/knn.py: StudentKNN.predict')
+        raise NotImplementedError('Implement StudentKNN.predict; see README')

@@ -1,13 +1,14 @@
+import numpy as np
 from core.types import RawHandSample, FeatureResult
+
 
 class StudentNormalizer:
     def transform(self, sample: RawHandSample, config: dict) -> FeatureResult:
-        """Required TODO. Input: RawHandSample, hand_mode single/dual, mirror_left,
-        feature_version. Convert normalized image x/y/z to same pixel scale,
-        translate wrist(0) to origin, scale by distance wrist(0)-middle_mcp(9),
-        reject scale <10px, optionally mirror relative left x. Do not rotate-align.
-        Return finite float32 (63,) for configured single hand; dual is left63,
-        right63,left-present,right-present (128,), missing slots zero-filled.
-        No hands -> invalid with features=None. See docs/student_tasks.md.
+        """Required: sample.right is a valid right-hand array of shape (21, 3).
+        sample.width and sample.height are the image dimensions in pixels.
+        Convert to a common pixel scale, center on the wrist, normalize by
+        palm size, and flatten to 63 float32 values. Preserve orientation.
+        Return FeatureResult with featureVersion=config['feature_version'].
+        See README for data access, NumPy operations, and return contracts.
         """
-        raise NotImplementedError('請完成 student/normalization.py: StudentNormalizer.transform')
+        raise NotImplementedError('Implement StudentNormalizer.transform; see README')

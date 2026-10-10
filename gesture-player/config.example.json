@@ -1,1 +1,1 @@
-{"hand_mode":"single","single_hand":"right","mirror_left":true,"feature_version":"student-normalization-v1","k":5,"distance_threshold":1.0,"vote_threshold":0.6,"filter_enabled":false}
+{"hand_mode":"single","single_hand":"right","swap_handedness":true,"mirror_left":false,"feature_version":"right-hand-normalization-v2","k":5,"distance_threshold":1.0,"vote_threshold":0.6,"filter_enabled":false}

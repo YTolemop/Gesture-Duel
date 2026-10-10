@@ -1,9 +1,0 @@
-{
-  "date": "2026-10-09T13:15:49.276268+00:00",
-  "exitCode": 0,
-  "scope": "full PVP draft, centered countdown, mirrored health/qi HUD, no moon or HUD captions, 1920x1080 canvas, actual movement, background transport health",
-  "screenshots": [
-    "gesture-arena/evidence/hud-countdown-v4.png",
-    "gesture-arena/evidence/hud-v4.png"
-  ]
-}
